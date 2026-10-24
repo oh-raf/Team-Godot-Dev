@@ -1,0 +1,68 @@
+[gd_scene format=3 uid="uid://cckl1n6cgnsuv"]
+
+[ext_resource type="Script" uid="uid://cdxeav8iyhs3m" path="res://scripts/profile_card.gd" id="1_p400y"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_2ib2b"]
+bg_color = Color(0.6008106, 0.6074923, 0.53241754, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+corner_detail = 6
+
+[node name="ProfileCard" type="CanvasLayer" unique_id=1973858136]
+script = ExtResource("1_p400y")
+
+[node name="Panel" type="Panel" parent="." unique_id=963738322]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -200.0
+offset_top = -225.0
+offset_right = 200.0
+offset_bottom = 89.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Panel" unique_id=621351887]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Foto" type="TextureRect" parent="Panel/VBoxContainer" unique_id=2042757927]
+unique_name_in_owner = true
+texture_filter = 1
+custom_minimum_size = Vector2(200, 200)
+layout_mode = 2
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Nama" type="Label" parent="Panel/VBoxContainer" unique_id=1196902586]
+unique_name_in_owner = true
+layout_mode = 2
+horizontal_alignment = 1
+
+[node name="Nim" type="Label" parent="Panel/VBoxContainer" unique_id=1787313694]
+unique_name_in_owner = true
+layout_mode = 2
+horizontal_alignment = 1
+
+[node name="Peran" type="Label" parent="Panel/VBoxContainer" unique_id=1450393352]
+unique_name_in_owner = true
+layout_mode = 2
+horizontal_alignment = 1
+
+[node name="Spacer" type="Control" parent="Panel/VBoxContainer" unique_id=1156006176]
+custom_minimum_size = Vector2(0, 20)
+layout_mode = 2
+
+[node name="NextButton" type="Button" parent="Panel/VBoxContainer" unique_id=546762368]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_styles/normal = SubResource("StyleBoxFlat_2ib2b")
+text = "NEXT"

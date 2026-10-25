@@ -23,5 +23,4 @@ func _on_finish_body_entered(body):
 
 func _on_card_closed():
 	get_tree().paused = false
-	# Stage 2 belum ada, sementara muat ulang stage ini
-	get_tree().reload_current_scene()
+	get_tree().change_scene_to_file("res://scenes/stage2.tscn")

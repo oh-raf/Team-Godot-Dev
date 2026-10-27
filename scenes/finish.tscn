@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://d2uy6ymlun6sb"]
 
-[ext_resource type="Texture2D" uid="uid://cpdwwmmpq0a6" path="res://assets/door dung.png" id="1_5nbog"]
+[ext_resource type="Texture2D" uid="uid://cpdwwmmpq0a6" path="res://assets/stage1 assets/door dung.png" id="1_5nbog"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_14cdr"]
 

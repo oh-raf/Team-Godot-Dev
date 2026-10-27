@@ -1,10 +1,10 @@
 [gd_scene format=4 uid="uid://0c3ps4w4bajs"]
 
-[ext_resource type="Texture2D" uid="uid://h7l5imrbvs0c" path="res://assets/sprites/world_tileset.png" id="1_b4cv3"]
+[ext_resource type="Texture2D" uid="uid://h7l5imrbvs0c" path="res://assets/stage1 assets/world_tileset.png" id="1_b4cv3"]
 [ext_resource type="PackedScene" uid="uid://d2uy6ymlun6sb" path="res://scenes/finish.tscn" id="1_ft3hr"]
 [ext_resource type="Script" uid="uid://ne8voqgau612" path="res://scripts/stage1.gd" id="1_qt4yn"]
-[ext_resource type="Texture2D" uid="uid://40iv7wcanip4" path="res://assets/origbig.png" id="2_efaok"]
-[ext_resource type="Texture2D" uid="uid://c6yponkbhkkoc" path="res://assets/sprites/platforms.png" id="2_ft3hr"]
+[ext_resource type="Texture2D" uid="uid://40iv7wcanip4" path="res://assets/stage1 assets/origbig.png" id="2_efaok"]
+[ext_resource type="Texture2D" uid="uid://c6yponkbhkkoc" path="res://assets/stage1 assets/platforms.png" id="2_ft3hr"]
 [ext_resource type="PackedScene" uid="uid://dnss6bxm8csjt" path="res://scenes/player.tscn" id="3_qt4yn"]
 
 [sub_resource type="OccluderPolygon2D" id="OccluderPolygon2D_efaok"]
